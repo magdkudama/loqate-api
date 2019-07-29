@@ -1,0 +1,23 @@
+{
+    "name": "magdkudama/loqate-api",
+    "license": "MIT",
+    "description": "PHP client for the Loqate API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Magd Kudama",
+            "email": "magdkudama@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MagdKudama\\Loqate\\": "src/"
+        }
+    }
+}
+
